@@ -1,7 +1,8 @@
 María Fernanda Rodríguez
 2024 - curso CODERHOUSE
-preEntrega3Rodriguez
+Proyecto Final
 
-https://fer036.github.io/preEntrega3Rodriguez/
-https://github.com/Fer036/preEntrega3Rodriguez/
+GitHub page: https://fer036.github.io/PFRodriguez/
+GitHub repo: https://github.com/Fer036/PFRodriguez/
+Servidor Netlify: https://pfrodriguez.netlify.app/
 ---
