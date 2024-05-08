@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap rel="stylesheet');
+
+
+/* Reseteo */
+* {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+
+body {
+    height: 96vh;
+    width: 100%;
+
+    background: rgb(7, 11, 14);
+    background: linear-gradient(90deg, rgba(7, 11, 14, 1) 0%, rgba(53, 58, 64, 1) 100%);
+    overflow-x: hidden;
+
+    main {
+        @extend%font-tilt;
+    }
+}
+
+p {
+    text-align: justify;
+}
+
+.btn {
+    color: nth($color, 4) !important;
+}
+
+.btn:hover {
+    color: nth($color, 6) !important;
+    transform: scale(1.2);
+}
+
+.pag-titulo {
+    color: nth($color, 5);
+    text-align: center;
+}

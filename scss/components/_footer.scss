@@ -1,0 +1,10 @@
+footer {
+    width: 100%;
+    background-color: nth($color, 2);
+    @extend%font-bebas;
+    font-size: nth($font-size, 3);
+    position: fixed;
+    bottom: 0;
+
+    z-index: 3;
+}
