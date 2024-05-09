@@ -4,12 +4,23 @@
     article {
         span {
             text-align: end;
+
             h1 {
-                color: nth($color, 7);
+                position: relative;
+                overflow: hidden;
+                background: linear-gradient(90deg, #000, nth($color, 6), #000);
+                background-repeat: no-repeat;
+                background-size: 80%;
+                animation: textanimate 3s linear infinite;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: rgba(255, 255, 255, 0);
             }
+
             h3 {
                 color: nth($color, 3);
             }
+
             h4 {
                 color: nth($color, 4);
             }
@@ -18,8 +29,18 @@
 
     article {
         img {
-            width: 35rem;
+            width: 40rem;
             height: auto;
         }
+    }
+}
+
+@keyframes textanimate {
+    0% {
+        background-position: -500%;
+    }
+
+    100% {
+        background-position: 500%;
     }
 }

@@ -74,14 +74,28 @@ p {
   .contenedor-index article span {
     text-align: end; }
     .contenedor-index article span h1 {
-      color: #6282a0; }
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(90deg, #000, #e3c39d, #000);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      animation: textanimate 3s linear infinite;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: rgba(255, 255, 255, 0); }
     .contenedor-index article span h3 {
       color: #656C72; }
     .contenedor-index article span h4 {
       color: #B9BDC0; }
   .contenedor-index article img {
-    width: 35rem;
+    width: 40rem;
     height: auto; }
+
+@keyframes textanimate {
+  0% {
+    background-position: -500%; }
+  100% {
+    background-position: 500%; } }
 
 .sobre-mi .sobre-mi-texto {
   color: #B9BDC0; }
